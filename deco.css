@@ -1,0 +1,230 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.logo {
+  width: 90px;
+  mix-blend-mode: multiply;
+  margin: -20px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #efe6de;
+  border: 2px solid #ffffff;
+  font-family: "Overlock SC", sans-serif;
+}
+.nav-link:hover {
+  background-color: #b29c90;
+  border-radius: 8px;
+  transition: all 0.8s ease 0s;
+  z-index: 0;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./pexels-.jpg);
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 0rem;
+}
+.content {
+  color: #000000;
+  position: absolute;
+  top: 32%;
+  left: 2%;
+  padding-left: 3rem;
+  text-align: center;
+  width: 96%;
+  height: 28%;
+  background-color: rgba(240, 207, 148, 0.3);
+  padding-top: 2rem;
+}
+
+.content h1 {
+  font-size: 8rem;
+  display: inline;
+  font-family: "Cinzel", serif;
+  color: #fff;
+}
+.content h1:hover {
+  color: #824f31;
+}
+.content p {
+  font-size: 40px;
+  font-family: "Sacramento", cursive;
+  color: #6e4229;
+  font-weight: 3rem;
+}
+.content p:hover {
+  color: #fff;
+}
+.gift-img {
+  height: 325px;
+  width: 285px;
+  display: flex;
+  padding-left: 10rem;
+}
+#img-2 {
+  padding-right: 5rem;
+  height: 325px;
+  width: 385px;
+  padding-left: 5rem;
+  padding-top: 4rem;
+}
+.gift-wrap {
+  background-image: url(./leaf.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gift {
+  width: 100%;
+  text-align: center;
+  padding: 5rem;
+  padding-top: 6rem;
+}
+.gift h3 {
+  font-family: "MuseoModerno", sans-serif;
+  color: #5a3824;
+}
+.gift h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  color: #9b7c6b;
+}
+.gift h4 {
+  font-family: "Berkshire Swash", serif;
+  font-size: 30px;
+  color: #5a3824;
+}
+.spot-light {
+  text-align: left;
+  padding: 2rem;
+  font-family: "Tsukimi Rounded", sans-serif;
+  font-weight: 700;
+  color: #5a3824;
+}
+.images {
+  background-color: #e1daca;
+  display: block;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-left: 3rem;
+}
+
+.items {
+  height: 400px;
+  transition: 1s;
+}
+.items:hover {
+  transform: scale(1.2);
+  z-index: 2;
+}
+.image-resize {
+  height: 325px;
+  width: 285px;
+  object-fit: cover;
+  object-position: center center;
+  overflow: hidden;
+}
+.images .row {
+  overflow: hidden;
+  padding: 0px;
+}
+.about {
+  background-color: #e1daca;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+#about {
+  padding-top: 10rem;
+  align-items: center;
+  height: 400px;
+  margin-left: -3px;
+}
+.about img {
+  height: 325px;
+  width: 244px;
+  border-radius: 6.25rem;
+  margin-top: 3rem;
+}
+.about h2 {
+  padding-left: 2px;
+  font-family: "Overlock SC", sans-serif;
+  font-weight: 900px;
+  color: #4e2d1b;
+}
+.about p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #5a3824;
+}
+#image-2 {
+  padding-left: 1rem;
+}
+.offers {
+  background-image: url(./leaf.jpg);
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  opacity: 5rem;
+  overflow: hidden;
+}
+.offers .shop-now {
+  padding-top: 4rem;
+  justify-content: center;
+  position: relative;
+}
+.offers .button {
+  border-radius: 10px;
+  border-top-right-radius: 0%;
+  width: 8rem;
+  height: 2rem;
+  background-color: #fff;
+  margin-top: 1rem;
+}
+.offers .button:hover {
+  background-color: #b29c90;
+}
+.shop-now h3 {
+  font-family: "MuseoModerno", sans-serif;
+  color: #5a3824;
+}
+.shop-now h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  color: #8b7667;
+}
+.footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #f6f5ec;
+  padding-left: 4rem;
+}
+.footer h2 {
+  font-family: "Cinzel", serif;
+  margin-top: 1rem;
+  color: #4e2d1b;
+}
